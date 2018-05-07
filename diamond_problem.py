@@ -37,4 +37,6 @@ Note that this happens because when we call super().call_me()
 in the LeftSubclass it's not calling the call_me() in BaseClass
 but rather it's calling the RightSubClass's call_me().
 This is because it's calling the next method and not the parent method
+
+This is super important for final
 '''
